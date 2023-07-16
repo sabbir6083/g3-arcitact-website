@@ -1,0 +1,140 @@
+/* Deafult css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+font-family: 'Work Sans' sans-serif;
+}
+
+li{
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Header section */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header-title{
+color:#131313;
+
+font-size: 3rem;
+font-weight: 700;
+
+}
+
+nav > ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li a {
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+.banner-section{
+    margin-top: 100px;
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.b-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+
+.description{
+color:#727272);
+text-align: center;
+font-family: Work Sans;
+font-weight: 400;
+line-height: 1.62rem;
+margin: 1rem 0rem;
+
+}
+
+.primary-btn{
+border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+width: 11.25rem;
+height: 4rem;
+border: none;
+
+}
+
+/* header section responsive css */
+
+@media screen  and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+
+    nav > ul {
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .banner-section {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul {
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .banner-section {
+        margin-top: 30px;
+    }
+}
+
